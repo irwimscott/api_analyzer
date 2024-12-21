@@ -1,0 +1,16 @@
+[
+  {
+    "id": "rule-001",
+    "name": "Swagger Version",
+    "description": "APIs devem usar no mínimo a versão Swagger 3.0",
+    "severity": "HIGH",
+    "pattern": "swagger.*\\\"openapi\\\":\\s*\\\"3\\\""
+  },
+  {
+    "id": "rule-002",
+    "name": "Nomenclatura de Recursos",
+    "description": "Os nomes de recursos devem estar no plural.",
+    "severity": "MEDIUM",
+    "pattern": "/api/v1/[a-z]+s(/|$)"
+  }
+]
